@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"time"
 	_ "github.com/nailcui/killme"
+	"time"
 )
 
 func main() {
@@ -11,4 +11,3 @@ func main() {
 	time.Sleep(10 * time.Minute)
 	fmt.Println("exit...")
 }
-
